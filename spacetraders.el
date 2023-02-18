@@ -4,7 +4,7 @@
 
 ;; Author: BeAnMo
 ;; Version: 1.0.0
-;; Package-Requires: ((request) (deferred) (request-deferred) (cl))
+;; Package-Requires: ((request) (deferred) (request-deferred) (cl-lib))
 ;; Created: 07 July 2021
 ;; Keywords: Spacetraders
 ;; URL: https://github.com/magicaldave/spacetraders.el
@@ -25,7 +25,7 @@
 (require 'request)
 (require 'deferred)
 (require 'request-deferred)
-(require 'cl) ;; lexical-let is not automatically available?
+(require 'cl-lib) ;; lexical-let is not automatically available?
 (setq debug-on-error t)
 
 (defgroup spacetraders nil
