@@ -1,10 +1,23 @@
+;;; Spacetraders --- API integration for emacs. Make Dat Space Cash
+
+;; Version: 1.0.0
+;; Author: BeAnMo
+;; Created: 07 July 2021
+;; Keywords: Spacetraders
+;; URL: https://github.com/magicaldave/spacetraders.el
+
+;;; Commentary:
+
+;; This package adds integration for the spacetraders api
+;; into emacs. Make that space cash friends
 ;; TODOS
-;; - accept "?" for commands to bring up all options
-;;   (for each st-get/set/put/etc...)
-;; - automate workflows with actions
-;; - interactive tables
-;;   (click on PK/FK in tables to bring up other displays)
-;; - 
+;; accept "?" for commands to bring up all options
+;; (for each st-get/set/put/etc...)
+;; automate workflows with actions
+;; interactive tables
+;; (click on PK/FK in tables to bring up other displays)
+
+;;; Code:
 
 (require 'request)
 (require 'deferred)
