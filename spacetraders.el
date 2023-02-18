@@ -149,6 +149,7 @@ BODY: (...Sexpr)"
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Game Status ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;###autoload
 (defun st-fetch-game-status ()
   (interactive)
   (st-api-call
