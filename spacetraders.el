@@ -1,7 +1,6 @@
-;;; Spacetraders --- API integration for emacs. Make Dat Space Cash -*- lexical-binding: t; -*-
+;;; spacetraders.el --- API integration for Makin Dat Space Cash -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2011 Free Software Foundation, Inc.
-
 
 ;; Author: BeAnMo
 ;; Version: 1.0.0
